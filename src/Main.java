@@ -10,5 +10,8 @@ public class Main {
         Cuadrado cuadrado = new Cuadrado();
         Elipse elipse = new Elipse();
         Rectangulo rectangulo = new Rectangulo();
+
+        circulo.setColor("azul");       //Se demuestra que circulo hereda color de conica y que conica hereda color de forma
+        System.out.println(circulo.getColor());
     }
 }
