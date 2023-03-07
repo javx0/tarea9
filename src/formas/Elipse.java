@@ -3,13 +3,12 @@ package formas;
 /**
  * Class Elipse
  */
-public class Elipse {
+public class Elipse extends Conica {
 
   //
   // Fields
   //
 
-  private String color;
   private double ejeMayor;
   /**
    * 		
@@ -29,22 +28,6 @@ public class Elipse {
   //
   // Accessor methods
   //
-
-  /**
-   * Set the value of color
-   * @param newVar the new value of color
-   */
-  public void setColor (String newVar) {
-    color = newVar;
-  }
-
-  /**
-   * Get the value of color
-   * @return the value of color
-   */
-  public String getColor () {
-    return color;
-  }
 
   /**
    * Set the value of ejeMayor

@@ -3,13 +3,12 @@ package formas;
 /**
  * Class Circulo
  */
-public class Circulo {
+public class Circulo extends Conica {
 
   //
   // Fields
   //
 
-  private String color;
   private double Diametro;
   
   //
@@ -25,22 +24,6 @@ public class Circulo {
   //
   // Accessor methods
   //
-
-  /**
-   * Set the value of color
-   * @param newVar the new value of color
-   */
-  public void setColor (String newVar) {
-    color = newVar;
-  }
-
-  /**
-   * Get the value of color
-   * @return the value of color
-   */
-  public String getColor () {
-    return color;
-  }
 
   /**
    * Set the value of Diametro
